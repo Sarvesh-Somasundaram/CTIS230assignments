@@ -1,11 +1,39 @@
 body {  
-    color:black;  
+    color:black; 
+    font-family: Papyrus 
 }
 
 h2 {  
     color:blue;  
+    background-color: seashell;
+    width: fit-content;
+    font-weight:bolder;
+    font-family: Cambria,Georgia,"Book Antiqua",serif
 }
 
 h3 {  
     color:red;  
+    background-color: orange;
+    font-style:italic;
+}
+
+strong {
+    background-color: palegreen;
+    font-size:1.3em;
+}
+
+a:link {  
+    color:darkgreen;  
+}
+
+a:visited {  
+    color:darkblue;  
+}
+
+a:hover {  
+    color:purple;  
+}
+
+a:active {  
+    color:yellow;  
 }
