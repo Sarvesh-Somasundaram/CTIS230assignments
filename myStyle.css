@@ -11,18 +11,18 @@ h2 {
     font-family: Cambria,Georgia,"Book Antiqua",serif
 }
 
-h3 {  
-    color:red;  
+h3 b {  
+    color:darkred;  
     background-color: orange;
     font-style:italic;
 }
 
-strong {
+p strong {
     background-color: palegreen;
     font-size:1.3em;
 }
 
-a:link {  
+p, a:link {  
     color:darkgreen;  
 }
 
@@ -36,4 +36,48 @@ a:hover {
 
 a:active {  
     color:yellow;  
+}
+
+div.overview {
+    font-size: large;
+}
+
+div.Extracurricular p {
+    font-style: italic;
+    color: rgb(0, 59, 78);
+}
+
+img#general {
+    width: 100%;
+    height: 200px;
+    object-fit: fill;
+    border: 1px solid red;
+}
+
+img {
+    width: 50%;
+    float: inline-end;
+}
+
+body {
+    padding-left: 1in;
+    padding-right: 1in;
+}
+
+div.picturesofcode {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+header.headerflex {
+    width: 100%;
+    display:flex;
+    justify-content: center;
+}
+
+footer.footerflex {
+    width: 100%;
+    display:flex;
+    justify-content: center;
 }
