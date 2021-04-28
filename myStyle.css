@@ -1,5 +1,5 @@
 body {  
-    color:black; 
+    color: blanchedalmond; 
     font-family: Papyrus 
 }
 
@@ -15,6 +15,10 @@ h3 b {
     color:darkred;  
     background-color: orange;
     font-style:italic;
+}
+
+h3 {
+    color: blanchedalmond;
 }
 
 p strong {
@@ -60,6 +64,7 @@ img {
 }
 
 body {
+    background-color: rgb(20, 18, 18);
     padding-left: 1in;
     padding-right: 1in;
 }
