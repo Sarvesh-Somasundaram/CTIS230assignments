@@ -29,9 +29,10 @@ div.info {
     text-align: center;
 }
 
-/* p {
+div.moreinfo {
     text-align: center;
-} */
+}
+
 
 p, a:link {  
     color:darkgreen;  
