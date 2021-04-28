@@ -7,19 +7,26 @@
 		<script src="testscript.js" defer></script>
 	</head>
 
-	<header class="headerflex" >
-		<a href="SomasundaramAssignment2.html">Page 1    |</a>
-		<a href="SomasundaramAssignment2Page2.html">|    Page 2    |</a>
-		<a href="SomasundaramAssignment2Page3.html">|    Page 3</a>
-	</header>
+	
 
-	<body>
+	<body id="picturespage">
+		<header class="headerflex" >
+			<a href="SomasundaramAssignment2.html">Page 1    |</a>
+			<a href="SomasundaramAssignment2Page2.html">|    Page 2    |</a>
+			<a href="SomasundaramAssignment2Page3.html">|    Page 3</a>
+		</header>
 
-		<img id="general" src="images/picofcodejpg" alt="Picture of Code on a Screen">
-		
-		<h1 align=center>Pictures from programming projects created by Sarvesh</h1>
+	<img id="general" src="images/picofcodejpg" alt="Picture of Code on a Screen">
+	<h1 align=center>Pictures from programming projects created by Sarvesh</h1>
 
 	<div class="picturesofcode">
+
+		<div class="changetheme">
+			<button id="lightmode">Switch to light theme</button>
+			<br>
+			<button id="darkmode">Switch to dark theme</button>
+		</div>
+		<br>
 		<div class="graphimg">
 		<img id="graph" src="images/actualGraph.png" alt="Picture of a Graph Generated in Python for a Differential Equations Project">
 		<h3>Picture of a Graph Generated in Python for a Differential Equations Project</h3> </div>
@@ -31,17 +38,24 @@
 		<div class="menupicimg">
 		<img id="menupic" src="images/picofgame2.png" alt="Picture of The Menu Screen of a Computer Game Created Using Java">
 		<h3>Picture of The Menu Screen of a Computer Game Created Using Java</h3> </div>
+
+		<input type="text" id="myinput">
+		<br>
+		<button id="thebutton">A button</button>
 	</div>
-
-		<p id="firsttest" align=center>More pictures will be added soon as I find them</p>
-
-	</body>
-
+		
+	<div>
+		<p id="firsttest">More pictures will be added soon as I find them</p>
+		<p id="buttontest">Pictures are of the output created by each program, not the code itself</p>
+	</div>
 	<footer class="footerflex">
 		<p>Sarvesh Somasundaram    |</p>
 		<p>|    336.508.8520    |</p>
 		<p>|    sarveshssoma@gmail.com    |</p>
 		<p>|    April 23, 2021</p>
 	</footer>
+	</body>
+
+
 
 </html>
