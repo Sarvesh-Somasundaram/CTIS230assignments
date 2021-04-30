@@ -92,13 +92,13 @@ div.changetheme {
 }
 
 header.headerflex {
-    width: 100%;
+    width: fit-content;
     display:flex;
     justify-content: center;
 }
 
 footer.footerflex {
-    width: 100%;
+    width: fit-content;
     display:flex;
     justify-content: center;
 }
