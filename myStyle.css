@@ -136,6 +136,7 @@ button#lightmode, button#darkmode {
         body {  
             margin-left: 4%;
             margin-right: 4%;
+            background-color: black;
         }
 
         img {
