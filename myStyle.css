@@ -35,6 +35,7 @@ div.info {
     width: 100%;
 }
 
+
 div.moreinfo {
     text-align: center;
 }
@@ -73,15 +74,18 @@ img#general {
 }
 
 img {
-    width: 50%;
+    width: 60%;
     float: inline-end;
+}
+
+img#smallimg {
+    width: 2%;
 }
 
 body {
     background-color: rgb(0, 0, 0);
     padding-left: 1in;
     padding-right: 1in;
-    color: blanchedalmond; 
     font-family: Papyrus 
 }
 
@@ -129,37 +133,18 @@ button#lightmode, button#darkmode {
     }
   
     @media screen and (orientation:landscape) {
-      body {  
-        margin-left: 5px;
-        margin-right: 40px;
-        width: 97%;
-        color:orangered;
-        background-color: beige;
-        font-family: Georgia,"Book Antiqua",serif
-        
-      }
-  
-      p.analysis {  
-        font-size: 0.9em; 
+        body {  
+            margin-left: 4%;
+            margin-right: 4%;
         }
-  
-        img#img1 {  
-          width: 90%;
-          float: none;
-          padding-left: 5%;
+
+        img {
+            width: 80%;
+            float: inline-end;
         }
-      
-        img#img2 {
-          width: 90%;
-          float: none;
-          padding-left: 5%;
-          }
-          
-          img#img3 {  
-            width: 90%;
-            float: none;
-            padding-left: 5%;
-          }
-  
+
+        img#smallimg {
+            width: 2%;
+        }
     }
   }

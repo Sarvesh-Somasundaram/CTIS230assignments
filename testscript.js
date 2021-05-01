@@ -6,6 +6,7 @@ lightmodebutton = document.getElementById("lightmode");
 darkmodebutton = document.getElementById("darkmode");
 picturepagebackground = document.getElementById("picturespage");
 textentry = document.getElementById("myinput");  
+selfieimg = document.getElementById("smallimg");
 
 // This line adds a listener for an onClick method to the myitem element
 myitem.addEventListener("click", onClick);
@@ -20,6 +21,8 @@ lightmodebutton.addEventListener("click", lightModeClick);
 textentry.addEventListener("change", onChange);
 
 darkmodebutton.addEventListener("click", darkModeClick);
+
+selfieimg.addEventListener("click", enhanceOnClick);
 
 
 
@@ -54,4 +57,13 @@ function darkModeClick() {
 function onChange() {  
     newtext = myinput.value;  
     textitem.innerHTML = newtext;  
+}
+
+function enhanceOnClick() {
+    if (selfieimg.style.width == "2%") {
+        selfieimg.style.width = "20%";
+      } 
+    else {
+        selfieimg.style.width = "2%";
+    }
 }
